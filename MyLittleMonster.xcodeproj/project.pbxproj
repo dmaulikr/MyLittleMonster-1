@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5151EAE1D8F72F100A9C5DC /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5151EA91D8F72F100A9C5DC /* bite.wav */; };
+		A5151EAF1D8F72F100A9C5DC /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5151EAA1D8F72F100A9C5DC /* cave-music.mp3 */; };
+		A5151EB01D8F72F100A9C5DC /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5151EAB1D8F72F100A9C5DC /* death.wav */; };
+		A5151EB11D8F72F100A9C5DC /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5151EAC1D8F72F100A9C5DC /* heart.wav */; };
+		A5151EB21D8F72F100A9C5DC /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5151EAD1D8F72F100A9C5DC /* skull.wav */; };
 		A5F91E0B1D45420E001CC4F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F91E0A1D45420E001CC4F8 /* AppDelegate.swift */; };
 		A5F91E0D1D45420E001CC4F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F91E0C1D45420E001CC4F8 /* ViewController.swift */; };
 		A5F91E101D45420E001CC4F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F91E0E1D45420E001CC4F8 /* Main.storyboard */; };
 		A5F91E121D45420E001CC4F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F91E111D45420E001CC4F8 /* Assets.xcassets */; };
 		A5F91E151D45420E001CC4F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F91E131D45420E001CC4F8 /* LaunchScreen.storyboard */; };
+		A5F91E1F1D4C0BC2001CC4F8 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F91E1E1D4C0BC2001CC4F8 /* DragImg.swift */; };
+		A5F91E211D4C12EE001CC4F8 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F91E201D4C12EE001CC4F8 /* MonsterImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5151EA91D8F72F100A9C5DC /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		A5151EAA1D8F72F100A9C5DC /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		A5151EAB1D8F72F100A9C5DC /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		A5151EAC1D8F72F100A9C5DC /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		A5151EAD1D8F72F100A9C5DC /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 		A5F91E071D45420E001CC4F8 /* MyLittleMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLittleMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F91E0A1D45420E001CC4F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5F91E0C1D45420E001CC4F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,8 @@
 		A5F91E111D45420E001CC4F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5F91E141D45420E001CC4F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5F91E161D45420E001CC4F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F91E1E1D4C0BC2001CC4F8 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		A5F91E201D4C12EE001CC4F8 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +68,19 @@
 		A5F91E091D45420E001CC4F8 /* MyLittleMonster */ = {
 			isa = PBXGroup;
 			children = (
+				A5151EA91D8F72F100A9C5DC /* bite.wav */,
+				A5151EAA1D8F72F100A9C5DC /* cave-music.mp3 */,
+				A5151EAB1D8F72F100A9C5DC /* death.wav */,
+				A5151EAC1D8F72F100A9C5DC /* heart.wav */,
+				A5151EAD1D8F72F100A9C5DC /* skull.wav */,
 				A5F91E0A1D45420E001CC4F8 /* AppDelegate.swift */,
 				A5F91E0C1D45420E001CC4F8 /* ViewController.swift */,
 				A5F91E0E1D45420E001CC4F8 /* Main.storyboard */,
 				A5F91E111D45420E001CC4F8 /* Assets.xcassets */,
 				A5F91E131D45420E001CC4F8 /* LaunchScreen.storyboard */,
 				A5F91E161D45420E001CC4F8 /* Info.plist */,
+				A5F91E1E1D4C0BC2001CC4F8 /* DragImg.swift */,
+				A5F91E201D4C12EE001CC4F8 /* MonsterImg.swift */,
 			);
 			path = MyLittleMonster;
 			sourceTree = "<group>";
@@ -91,11 +112,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Sergey Dolgov";
 				TargetAttributes = {
 					A5F91E061D45420E001CC4F8 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -122,6 +144,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5151EB21D8F72F100A9C5DC /* skull.wav in Resources */,
+				A5151EAE1D8F72F100A9C5DC /* bite.wav in Resources */,
+				A5151EB01D8F72F100A9C5DC /* death.wav in Resources */,
+				A5151EB11D8F72F100A9C5DC /* heart.wav in Resources */,
+				A5151EAF1D8F72F100A9C5DC /* cave-music.mp3 in Resources */,
 				A5F91E151D45420E001CC4F8 /* LaunchScreen.storyboard in Resources */,
 				A5F91E121D45420E001CC4F8 /* Assets.xcassets in Resources */,
 				A5F91E101D45420E001CC4F8 /* Main.storyboard in Resources */,
@@ -135,8 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F91E211D4C12EE001CC4F8 /* MonsterImg.swift in Sources */,
 				A5F91E0D1D45420E001CC4F8 /* ViewController.swift in Sources */,
 				A5F91E0B1D45420E001CC4F8 /* AppDelegate.swift in Sources */,
+				A5F91E1F1D4C0BC2001CC4F8 /* DragImg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +205,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -222,8 +253,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -242,6 +275,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -255,6 +289,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.streemfly.MyLittleMonster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -266,6 +301,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.streemfly.MyLittleMonster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +324,7 @@
 				A5F91E1B1D45420E001CC4F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
